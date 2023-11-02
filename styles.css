@@ -1,0 +1,58 @@
+.outer {
+    margin-left: 40%;
+    margin-top: 10%;
+    padding: 20px;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: auto;
+    
+  }
+
+  #answer-box{
+    position: fixed;
+    top: 180px;
+    right: 280px;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  #answerBox{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #000000;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  input[type="text"],
+  select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    margin: 2px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
